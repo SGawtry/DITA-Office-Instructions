@@ -1,0 +1,43 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2018"><meta name="DC.rights.owner" content="(C) Copyright 2018"><meta name="DC.Type" content="task"><meta name="description" content="Restarting the server can help with error messages."><meta name="DC.Format" content="XHTML"><meta name="DC.Identifier" content="task_ocx_ywg_sfb"><link rel="stylesheet" type="text/css" href="commonltr.css"><title>Restart the Server</title></head><body id="task_ocx_ywg_sfb"><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="title topictitle1" id="ariaid-title1">Restart the Server</h1>
+    
+    <div class="body taskbody"><p class="shortdesc">Restarting the server can help with error messages.</p>
+        <div class="section prereq p" id="task_ocx_ywg_sfb__prereq_qvv_jzg_sfb">You must be logged in on Stephanie's desktop. It is unclear
+            whether you can be logged in as another user or not.</div>
+        <section class="section context">This is the first troubleshooting step for when you try to log into 4D, but get an
+            error message that says the database cannot be used. Restarting can also be helpful if
+            the database is crashing often and you don't know why.</section>
+        <ol class="ol steps"><li class="li step stepexpand">
+                <span class="ph cmd">Click the Windows button in the lower left corner of the screen.</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">In the menu that pops up, type in "Services" and select that option.</span>
+                <div class="itemgroup info">
+                    <figure class="fig fignone" id="task_ocx_ywg_sfb__fig_ahr_bbh_sfb"><figcaption xmlns:table="http://dita-ot.sourceforge.net/ns/201007/dita-ot/table" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="figcap"><span class="figtitleprefix">Figure: </span>Fig 1. Start menu with 'Services' option selected</figcaption>
+                        
+                        <br><img class="image" id="task_ocx_ywg_sfb__image_bhr_bbh_sfb" src="startMenuServices.png" alt="Start menu with 'Services' option selected"><br>
+                    </figure>
+                </div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">When it opens, the top item should be 4D Server: Soils. Click on it once to
+                    highlight it. On the left side, click "Stop the service". </span>
+                <div class="itemgroup info">
+                    <figure class="fig fignone" id="task_ocx_ywg_sfb__fig_udl_2bh_sfb">
+                        <div class="p">
+                            <figure class="fig fignone" id="task_ocx_ywg_sfb__fig_gqm_hbh_sfb"><figcaption xmlns:table="http://dita-ot.sourceforge.net/ns/201007/dita-ot/table" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="figcap"><span class="figtitleprefix">Figure: </span>Fig. 2: 'Services' window screenshot</figcaption>
+                                
+                                <br><img class="image" id="task_ocx_ywg_sfb__image_hqm_hbh_sfb" src="servicesWindow.png" height="3" width="4" alt="'Services' window screenshot"><br>
+                            </figure>
+                        </div>
+                    </figure>
+                </div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">When the service is stopped, click "Start the Service."</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Close the Services window.</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Log into 4D again.</span>
+            </li></ol>
+    </div>
+</article></main></body></html>
